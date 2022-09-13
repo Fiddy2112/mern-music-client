@@ -2,12 +2,13 @@ import { initializeApp, getApp, getApps } from "firebase/app";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: process.env.FIREBASE_API_KEY,
-  authDomain: process.env.FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.FIREBASE_PROJECT_ID,
-  storageBucket: process.env.FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.MESSAGING_ID,
-  appId: process.env.FIREBASE_APP_ID,
+  apiKey: "AIzaSyBE6qt5TMjgSzifV5U_a64plzxqIhaofVg",
+  authDomain: "mern-music.firebaseapp.com",
+  projectId: "mern-music",
+  storageBucket: "mern-music.appspot.com",
+  messagingSenderId: "733587757471",
+  appId: "1:733587757471:web:c267af2c9665a03e2905aa",
+  measurementId: "G-6DLN2RFTXM",
 };
 
 const app = getApps.length > 0 ? getApp() : initializeApp(firebaseConfig);
