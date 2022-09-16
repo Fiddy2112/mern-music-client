@@ -10,7 +10,7 @@
     "axios": "^0.27.2",
     "dotenv": "^16.0.2",
     "firebase": "^9.9.4",
-    "framer-motion": "^7.3.2",
+    "framer-motion": "^4.1.17",
     "postcss": "^8.4.16",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
